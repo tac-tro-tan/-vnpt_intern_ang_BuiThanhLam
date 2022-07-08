@@ -1,20 +1,43 @@
-MicroFeNg
-This project was generated with Angular CLI version 7.2.1.
+# Micro-frontends with Web Components
 
-Development server
-Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Using web components as a wrapper for both Angular and React components, I am going to show them working alongside each other in a single application. I will also pass data to both components from the parent container, and back again.
 
-Code scaffolding
-Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
+Follow the instructions below to build and serve micro-frontend components for Angular and React, and a wrapper application to compose them together and handle communication between them.
 
-Build
-Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
+For a full walk-through visit [Create Micro-frontends using Web Components with support for Angular and React](https://medium.com/@kitson.mac/create-micro-frontends-using-web-components-with-support-for-angular-and-react-2d6db18f557a?source=friends_link&sk=642e86f203d58724d63d9d98aeb11476).
 
-Running unit tests
-Run ng test to execute the unit tests via Karma.
+## Build and serve Angular component
 
-Running end-to-end tests
-Run ng e2e to execute the end-to-end tests via Protractor.
+```sh
+cd micro-fe-ng
+npm i
+npm start
+```
+[http://localhost:5001/main.js](http://localhost:5001/main.js)
 
-Further help
-To get more help on the Angular CLI use ng help or go check out the Angular CLI README.
+```html
+<ng-el></ng-el>
+```
+
+## Build and serve React component
+
+```sh
+cd micro-fe-react
+npm i
+npm start
+```
+[http://localhost:5002](http://localhost:5002)
+
+
+```html
+<react-el></react-el>
+```
+
+## Build and serve wrapper
+
+```sh
+cd micro-fe-wrapper
+npm i
+npm start
+```
+[http://localhost:5000](http://localhost:5000)

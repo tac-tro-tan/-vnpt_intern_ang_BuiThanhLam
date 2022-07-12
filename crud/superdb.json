@@ -1,0 +1,64 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "name": "Bùi Hoàng",
+        "email": "thelamxy0@gmail.com",
+        "mobile": 12313,
+        "address": "08 Hà Văn Tính"
+      },
+      {
+        "id": 2,
+        "name": " Thành Lâm",
+        "email": "thelamxy0@gmail.com",
+        "mobile": 1231123,
+        "address": "08 Hà Văn Tính"
+      },
+      {
+        "id": 3,
+        "name": "Bùi  Lâm",
+        "email": "thelamxy0@gmail.com",
+        "mobile": 1233123,
+        "address": "08 Hà Văn Tính"
+      },
+      {
+        "id": 4,
+        "name": " Lâm",
+        "email": "thelamxy0@gmail.com",
+        "mobile": 123123,
+        "address": "08 Hà Văn Tính"
+      },
+      {
+        "id": 7,
+        "name": "Nguyễn Văn Đạt",
+        "email": "102170166@sv1.dut.udn.vn",
+        "mobile": 123123123,
+        "address": "26 Đồng Kè"
+      },
+      {
+        "id": 8,
+        "name": "Bùi Thành Lâm",
+        "email": "thelamxy0@gmail.com",
+        "mobile": 123123123,
+        "address": "08 Hà Văn Tính"
+      },
+      {
+        "id": 9,
+        "name": "Nguyễn Văn B",
+        "email": "123123112",
+        "mobile": 123123213,
+        "address": "123123123"
+      },
+      {
+        "id": 10,
+        "name": "Nguyễn Văn A",
+        "email": "123@gmail.com",
+        "mobile": 1231223123,
+        "address": "ai biết được"
+      }
+    ],
+    "comments": [],
+    "profile": {
+      "name": "typicode"
+    }
+  }

@@ -7,11 +7,13 @@ import { EmployyeeDashComponent } from './employyee-dash/employyee-dash.componen
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { JobPriorityComponent } from './job-priority/job-priority.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployyeeDashComponent
+    EmployyeeDashComponent,
+    JobPriorityComponent
   ],
   imports: [
     BrowserModule,
